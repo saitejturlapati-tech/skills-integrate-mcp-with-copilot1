@@ -1,8 +1,10 @@
 {
   "servers": {
-    "github": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/"
+    "activities": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "src.mcp_server"],
+      "cwd": "/workspaces/skills-integrate-mcp-with-copilot1"
     }
   }
 }
